@@ -1,0 +1,27 @@
+Create some empty empty files in the root of that cloned repo, namely "Try.js", "Func.js", "Deal.js"
+-
+ to Add your changes to the index using
+ -git add .
+ 
+ to add individual files to the index
+ -git stash
+
+ to Bring your work back with
+ -git stash apply
+ 
+ to do multiple layers of stashes
+ -git stash list
+
+ To check out all of your current ones
+ -git stash apply stash@{1,etc}
+
+ apply the top stash on the stack
+ -git stash pop 
+
+ to delete stash manually
+ -git stash drop <id>
+
+ to delete all of the stored stashes
+ -git stash clear
+
+ 
